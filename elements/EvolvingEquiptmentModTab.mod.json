@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Evolving Equipment",
+    "icon": {
+      "value": "CUSTOM:GenericSword"
+    },
+    "showSearch": false
+  }
+}

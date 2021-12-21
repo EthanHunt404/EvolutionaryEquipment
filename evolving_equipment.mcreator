@@ -1,0 +1,133 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "EnvolMaterial",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "envol_material"
+    },
+    {
+      "name": "EnvolCrafting",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "envol_crafting"
+    },
+    {
+      "name": "GenericSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generic_sword"
+    },
+    {
+      "name": "GenercSwordCrafting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generc_sword_crafting"
+    },
+    {
+      "name": "EvolvingEquiptmentModTab",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evolving_equiptment_mod_tab"
+    },
+    {
+      "name": "Tier2Sword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tier_2_sword"
+    },
+    {
+      "name": "CommonEvolutions",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "common_evolutions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommonEvolutionTriggers",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "common_evolution_triggers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "TestVariable",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.evolving_equipment.envol_material": "Envol Mass",
+      "itemGroup.tabevolving_equiptment_mod_tab": "Evolving Equipment",
+      "item.evolving_equipment.tier_2_sword": "Tier 2 Sword",
+      "item.evolving_equipment.generic_sword": "Generic Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "evolving_equipment",
+    "modName": "Evolving Equipment",
+    "version": "1.0.0",
+    "author": "Ethan Buttazzi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.evolvingequipment",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100351610
+}
